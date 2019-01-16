@@ -1,6 +1,6 @@
 //Maya ASCII 2018 scene
 //Name: LeopardSeal.ma
-//Last modified: Tue, Jan 15, 2019 08:57:55 PM
+//Last modified: Tue, Jan 15, 2019 09:01:40 PM
 //Codeset: 1252
 requires maya "2018";
 currentUnit -l centimeter -a degree -t film;
@@ -13,13 +13,13 @@ fileInfo "license" "education";
 createNode transform -s -n "persp";
 	rename -uid "67E17532-40B5-DF43-F55A-A58F881EA3D3";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 4.5012647473095209 6.7918938459484437 -13.228868194833913 ;
-	setAttr ".r" -type "double3" -30.338352728059544 -550.199999999395 0 ;
+	setAttr ".t" -type "double3" 3.8028899635116948 5.4601446777885121 -17.127960323749978 ;
+	setAttr ".r" -type "double3" -12.338352728016339 -540.99999999906788 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "DD9BA757-484F-1CFD-53BB-999F3E4F003A";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 6.2329445782507245;
+	setAttr ".coi" 9.3844684224601966;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
@@ -88,14 +88,26 @@ createNode mesh -n "pSphereShape1" -p "pSphere1";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
-	setAttr ".pv" -type "double2" 0.5 1 ;
+	setAttr ".pv" -type "double2" 1 0.5 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
 	setAttr ".cuvs" -type "string" "map1";
 	setAttr ".dcc" -type "string" "Ambient+Diffuse";
 	setAttr ".covm[0]"  0 1 1;
 	setAttr ".cdvm[0]"  0 1 1;
-	setAttr -s 3 ".pt[2221:2223]" -type "float3"  0 -0.034507219 0.031757493 
-		0 -0.034507219 0.031757493 0 -0.034507219 0.031757493;
+	setAttr -s 15 ".pt";
+	setAttr ".pt[2173]" -type "float3" 0.011829896 0 0 ;
+	setAttr ".pt[2175]" -type "float3" -0.011829896 0 0 ;
+	setAttr ".pt[2176]" -type "float3" 0.016021457 0 0 ;
+	setAttr ".pt[2178]" -type "float3" -0.016021457 0 0 ;
+	setAttr ".pt[2179]" -type "float3" 0.016352471 0 0 ;
+	setAttr ".pt[2181]" -type "float3" -0.016352471 0 0 ;
+	setAttr ".pt[2182]" -type "float3" 0.023629833 0 0 ;
+	setAttr ".pt[2184]" -type "float3" -0.023629833 0 0 ;
+	setAttr ".pt[2185]" -type "float3" 0.035008408 0 0 ;
+	setAttr ".pt[2187]" -type "float3" -0.035008408 0 0 ;
+	setAttr ".pt[2230]" -type "float3" 0 -0.03708354 0.024406822 ;
+	setAttr ".pt[2231]" -type "float3" 0 -0.03708354 0.024406822 ;
+	setAttr ".pt[2232]" -type "float3" 0 -0.03708354 0.024406822 ;
 	setAttr ".ai_translator" -type "string" "polymesh";
 createNode transform -n "left";
 	rename -uid "0FBB1935-4E65-D3D3-01BF-37AA46DA5A4E";
@@ -5477,6 +5489,57 @@ createNode polyTweak -n "polyTweak147";
 	setAttr ".uopa" yes;
 	setAttr -s 3 ".tk[2218:2220]" -type "float3"  0 -0.029784651 0.037695616
 		 0 -0.029784651 0.037695616 0 -0.029784651 0.037695616;
+createNode polyExtrudeEdge -n "polyExtrudeEdge134";
+	rename -uid "934C7C90-455B-EDCF-BB93-CD8D119D613C";
+	setAttr ".uopa" yes;
+	setAttr ".ics" -type "componentList" 2 "e[4401]" "e[4403]";
+	setAttr ".ix" -type "matrix" 1.4333953093440077 0 0 0 0 -0.78803733982059765 1.1973384082613736 0
+		 0 -1.1973384082613736 -0.78803733982059765 0 3.9993322357358871 2.3897324707768015 -5.7341899211171761 1;
+	setAttr ".ws" yes;
+	setAttr ".pvt" -type "float3" 3.9794309 2.853864 -9.0423622 ;
+	setAttr ".rs" 56344;
+	setAttr ".c[0]"  0 1 1;
+	setAttr ".cbn" -type "double3" 3.4663204110428265 2.8209129956727934 -9.0496881877537589 ;
+	setAttr ".cbx" -type "double3" 4.4925413458692312 2.8910517530065301 -9.0289328164977238 ;
+createNode polyTweak -n "polyTweak148";
+	rename -uid "46C92C8D-4472-4F34-0F5B-91BEFBDC2FDC";
+	setAttr ".uopa" yes;
+	setAttr -s 3 ".tk[2221:2223]" -type "float3"  0 -0.034507219 0.031757493
+		 0 -0.034507219 0.031757493 0 -0.034507219 0.031757493;
+createNode polyExtrudeEdge -n "polyExtrudeEdge135";
+	rename -uid "12310B12-443B-CCB2-1996-C4B627E3BB5E";
+	setAttr ".uopa" yes;
+	setAttr ".ics" -type "componentList" 2 "e[4406]" "e[4408]";
+	setAttr ".ix" -type "matrix" 1.4333953093440077 0 0 0 0 -0.78803733982059765 1.1973384082613736 0
+		 0 -1.1973384082613736 -0.78803733982059765 0 3.9993322357358871 2.3897324707768015 -5.7341899211171761 1;
+	setAttr ".ws" yes;
+	setAttr ".pvt" -type "float3" 3.9794309 2.853864 -9.1100597 ;
+	setAttr ".rs" 55143;
+	setAttr ".c[0]"  0 1 1;
+	setAttr ".cbn" -type "double3" 3.4663204110428265 2.8209130908658002 -9.1173859018222139 ;
+	setAttr ".cbx" -type "double3" 4.4925413458692312 2.8910519195664675 -9.096629865689362 ;
+createNode polyTweak -n "polyTweak149";
+	rename -uid "BD0C7592-41E4-CA56-649E-63B4323D817D";
+	setAttr ".uopa" yes;
+	setAttr -s 3 ".tk[2224:2226]" -type "float3"  0 -0.039450578 0.025964702
+		 0 -0.039450578 0.025964702 0 -0.039450578 0.025964702;
+createNode polyExtrudeEdge -n "polyExtrudeEdge136";
+	rename -uid "17FF1E2A-426B-6E57-B765-A5841C9845E3";
+	setAttr ".uopa" yes;
+	setAttr ".ics" -type "componentList" 2 "e[4411]" "e[4413]";
+	setAttr ".ix" -type "matrix" 1.4333953093440077 0 0 0 0 -0.78803733982059765 1.1973384082613736 0
+		 0 -1.1973384082613736 -0.78803733982059765 0 3.9993322357358871 2.3897324707768015 -5.7341899211171761 1;
+	setAttr ".ws" yes;
+	setAttr ".pvt" -type "float3" 3.9794309 2.853864 -9.1736956 ;
+	setAttr ".rs" 51005;
+	setAttr ".c[0]"  0 1 1;
+	setAttr ".cbn" -type "double3" 3.4663204110428265 2.8209132750173196 -9.1810217725635539 ;
+	setAttr ".cbx" -type "double3" 4.4925413458692312 2.8910519609841261 -9.1602657364307056 ;
+createNode polyTweak -n "polyTweak150";
+	rename -uid "FAEE183C-4D3A-034A-7A62-E5B57BA4AE64";
+	setAttr ".uopa" yes;
+	setAttr -s 3 ".tk[2227:2229]" -type "float3"  0 -0.037083544 0.024406815
+		 0 -0.037083544 0.024406815 0 -0.037083544 0.024406815;
 select -ne :time1;
 	setAttr ".o" 1;
 	setAttr ".unw" 1;
@@ -5507,7 +5570,7 @@ select -ne :hardwareRenderGlobals;
 	setAttr ".btrs" 512;
 select -ne :ikSystem;
 	setAttr -s 4 ".sol";
-connectAttr "polyExtrudeEdge133.out" "pSphereShape1.i";
+connectAttr "polyExtrudeEdge136.out" "pSphereShape1.i";
 connectAttr ":defaultColorMgtGlobals.cme" "imagePlaneShape1.cme";
 connectAttr ":defaultColorMgtGlobals.cfe" "imagePlaneShape1.cmcf";
 connectAttr ":defaultColorMgtGlobals.cfp" "imagePlaneShape1.cmcp";
@@ -6170,6 +6233,15 @@ connectAttr "polyExtrudeEdge131.out" "polyTweak146.ip";
 connectAttr "polyTweak147.out" "polyExtrudeEdge133.ip";
 connectAttr "pSphereShape1.wm" "polyExtrudeEdge133.mp";
 connectAttr "polyExtrudeEdge132.out" "polyTweak147.ip";
+connectAttr "polyTweak148.out" "polyExtrudeEdge134.ip";
+connectAttr "pSphereShape1.wm" "polyExtrudeEdge134.mp";
+connectAttr "polyExtrudeEdge133.out" "polyTweak148.ip";
+connectAttr "polyTweak149.out" "polyExtrudeEdge135.ip";
+connectAttr "pSphereShape1.wm" "polyExtrudeEdge135.mp";
+connectAttr "polyExtrudeEdge134.out" "polyTweak149.ip";
+connectAttr "polyTweak150.out" "polyExtrudeEdge136.ip";
+connectAttr "pSphereShape1.wm" "polyExtrudeEdge136.mp";
+connectAttr "polyExtrudeEdge135.out" "polyTweak150.ip";
 connectAttr "defaultRenderLayer.msg" ":defaultRenderingList1.r" -na;
 connectAttr "pSphereShape1.iog" ":initialShadingGroup.dsm" -na;
 // End of LeopardSeal.ma
