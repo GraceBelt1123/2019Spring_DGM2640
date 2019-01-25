@@ -1,6 +1,6 @@
 //Maya ASCII 2018 scene
 //Name: Torse.ma
-//Last modified: Thu, Jan 24, 2019 04:59:35 PM
+//Last modified: Thu, Jan 24, 2019 05:00:12 PM
 //Codeset: 1252
 requires maya "2018";
 currentUnit -l centimeter -a degree -t film;
@@ -13,13 +13,13 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "5D1211E3-43A3-62D4-A68B-068FE41C8C6F";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 8.314335457196032 1.5138442228499889 10.508463907530667 ;
-	setAttr ".r" -type "double3" -6.938352645348318 -6083.4000000057076 0 ;
+	setAttr ".t" -type "double3" 1.6501231900156381 0.59126400862205908 6.0444157859803145 ;
+	setAttr ".r" -type "double3" -6.3383526453531589 -6107.0000000061927 -2.0401352091037955e-16 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "244271FD-4CFD-DE0C-B21D-78B87B9FA359";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 13.812228548655305;
+	setAttr ".coi" 6.7568668017344997;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
