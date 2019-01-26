@@ -1,6 +1,6 @@
 //Maya ASCII 2017 scene
 //Name: LeopardSeal.ma
-//Last modified: Fri, Jan 25, 2019 07:36:52 PM
+//Last modified: Fri, Jan 25, 2019 10:33:54 PM
 //Codeset: 1252
 requires maya "2017";
 currentUnit -l centimeter -a degree -t film;
@@ -11775,6 +11775,8 @@ select -ne :hardwareRenderGlobals;
 	setAttr ".btrs" 512;
 select -ne :ikSystem;
 	setAttr -s 4 ".sol";
+select -ne :modelPanel4ViewSelectedSet;
+	setAttr ".ihi" 0;
 connectAttr "polySoftEdge6.out" "pSphereShape1.i";
 connectAttr ":defaultColorMgtGlobals.cme" "imagePlaneShape1.cme";
 connectAttr ":defaultColorMgtGlobals.cfe" "imagePlaneShape1.cmcf";
