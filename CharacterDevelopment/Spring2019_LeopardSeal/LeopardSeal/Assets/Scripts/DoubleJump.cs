@@ -5,7 +5,7 @@ using UnityEngine;
 public class DoubleJump : MonoBehaviour
 {
 
-	public float DoubleSpeed = 2;
+	public float DoubleSpeed = 5;
 	public Rigidbody RigJump; 
 	public bool onGrounded = true;
 	private const int HighJump = 2;
@@ -22,6 +22,7 @@ public class DoubleJump : MonoBehaviour
 		{
 			RigJump.AddForce(Vector3.up * DoubleSpeed, ForceMode.Impulse);
 			onGrounded = false;
+			runningJump++;
 		}
 	}
 
