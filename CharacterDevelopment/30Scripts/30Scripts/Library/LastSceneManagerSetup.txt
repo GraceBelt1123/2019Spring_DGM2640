@@ -1,0 +1,4 @@
+sceneSetups:
+- path: C:/Users/10783188/Desktop/Github_GameDesign/Github_G/SnackDumplings/CharacterDevelopment/2019Spring_DGM2640/CharacterDevelopment/Spring2019_LeopardSeal/LeopardSeal/Assets/Scenes/SampleScene.unity
+  isLoaded: 1
+  isActive: 1
