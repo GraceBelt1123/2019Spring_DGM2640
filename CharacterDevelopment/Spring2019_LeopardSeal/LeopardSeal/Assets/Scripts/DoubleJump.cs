@@ -2,15 +2,32 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DoubleJump : MonoBehaviour {
+public class DoubleJump : MonoBehaviour
+{
 
-	// Use this for initialization
-	void Start () {
-		
-	}
+	public float DoubleSpeed = 2;
+	public Rigidbody RigJump; 
+	public bool onGrounded = true;
+	private const int HighJump = 2;
+	public int runningJump = 0;
 	
-	// Update is called once per frame
-	void Update () {
-		
+	void Start()
+	{
+		RigJump = GetComponent<Rigidbody>();
+	}
+
+	void Update()
+	{
+		if (Input.GetKeyDown("space") && (onGrounded || HighJump > runningJump))
+		{
+			RigJump.AddForce(Vector3.up * DoubleSpeed, ForceMode.Impulse);
+			onGrounded = false;
+		}
+	}
+
+	void OnCollisionEnter(Collision collision)
+	{
+		onGrounded = true;
+		runningJump = 0;
 	}
 }
