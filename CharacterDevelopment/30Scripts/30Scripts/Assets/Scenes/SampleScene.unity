@@ -215,6 +215,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 619e4e5748c304d40bca6279d09bde97, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PlayerTransform: {fileID: 1915142592}
+  SmoothFactor: 0.5
 --- !u!20 &282840813
 Camera:
   m_ObjectHideFlags: 0
@@ -303,7 +305,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 112
   m_CollisionDetection: 0
 --- !u!114 &1915142588
 MonoBehaviour:
@@ -316,9 +318,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87abecf90185eea409f2a2ad5a5b1f3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 3
+  defaultSpeed: 3
+  currentSpeed: 0
   Player: {fileID: 1915142587}
   iControl: 1
+  runSpeed: 10
 --- !u!65 &1915142589
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -412,9 +416,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 168be51a36e47b849b1eb10407cf4eca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  iSpeed: 10
-  Player: {fileID: 1915142587}
-  Run: 1
 --- !u!1 &2074775149
 GameObject:
   m_ObjectHideFlags: 0
