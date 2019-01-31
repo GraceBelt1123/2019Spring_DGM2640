@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Spring2019_2610/Prototype One.unity
+- path: Assets/Scenes/SampleScene.unity
   isLoaded: 1
   isActive: 1
