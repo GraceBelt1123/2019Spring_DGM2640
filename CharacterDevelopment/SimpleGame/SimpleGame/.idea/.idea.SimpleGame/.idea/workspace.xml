@@ -12,20 +12,20 @@
     <session id="-479156756">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.4" value="1" />
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.4" value="2" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="270" />
+          <entry key="cs" value="559" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="270" />
+          <entry key="C#" value="559" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -44,7 +44,20 @@
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Behaviours.cs">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="578">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+              <folding>
+                <marker date="1549142504537" expanded="true" signature="6:104" ph="..." />
+                <marker date="1549142504537" expanded="true" signature="146:502" ph="{...}" />
+                <marker date="1549142504537" expanded="true" signature="230:256" ph="{...}" />
+                <marker date="1549142504537" expanded="true" signature="279:305" ph="{...}" />
+                <marker date="1549142504537" expanded="true" signature="351:382" ph="{...}" />
+                <marker date="1549142504537" expanded="true" signature="431:464" ph="{...}" />
+                <marker date="1549142504537" expanded="true" signature="491:500" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -52,11 +65,15 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Behaviours.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Behaviours.cs" />
       </list>
     </option>
   </component>
@@ -67,9 +84,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="281" />
-    <option name="y" value="459" />
-    <option name="width" value="1440" />
+    <option name="x" value="77" />
+    <option name="y" value="261" />
+    <option name="width" value="1297" />
     <option name="height" value="779" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -78,11 +95,11 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
-      </pane>
       <pane id="UnityExplorer">
         <option name="show-hidden-items" value="false" />
+      </pane>
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
       </pane>
       <pane id="FileSystemExplorer" />
     </panes>
@@ -132,11 +149,12 @@
       <updated>1548964118304</updated>
       <workItem from="1548964122209" duration="444000" />
       <workItem from="1548965141530" duration="4000" />
+      <workItem from="1549142248280" duration="377000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="448000" />
+    <option name="totallyTimeSpent" value="825000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -148,9 +166,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="281" y="459" width="1440" height="779" extended-state="0" />
+    <frame x="77" y="261" width="1297" height="779" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2536232" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28698465" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -195,15 +213,22 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Behaviours.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Behaviour.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Behaviour.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Behaviours.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+        <state relative-caret-position="578">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <marker date="1549142504537" expanded="true" signature="6:104" ph="..." />
+            <marker date="1549142504537" expanded="true" signature="146:502" ph="{...}" />
+            <marker date="1549142504537" expanded="true" signature="230:256" ph="{...}" />
+            <marker date="1549142504537" expanded="true" signature="279:305" ph="{...}" />
+            <marker date="1549142504537" expanded="true" signature="351:382" ph="{...}" />
+            <marker date="1549142504537" expanded="true" signature="431:464" ph="{...}" />
+            <marker date="1549142504537" expanded="true" signature="491:500" ph="{...}" />
+          </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Behaviours.cs">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
