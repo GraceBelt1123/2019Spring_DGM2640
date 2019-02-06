@@ -8,8 +8,6 @@ public class Movement : MonoBehaviour {
     public float defaultSpeed = 3;
     public float currentSpeed;
     public Rigidbody Player;
-    public Rigidbody Left;
-    public Rigidbody Right;
     public bool iControl = true;
     public float runSpeed = 10;
 
@@ -32,24 +30,4 @@ public class Movement : MonoBehaviour {
         float sugar = Input.GetAxis("Horizontal") * currentSpeed;
         Player.transform.Translate(sugar * Time.deltaTime, 0,0);
     }
-
-    void SwitchLeft()
-    {
-        if (Input.GetKey(KeyCode.LeftArrow))
-        {
-            
-        }
-    }
-
-    void SwitchRight()
-    {
-        if (Input.GetKey(KeyCode.RightArrow))
-        {
-            
-        }
-    }
-    
-    
-    
-    
 }
