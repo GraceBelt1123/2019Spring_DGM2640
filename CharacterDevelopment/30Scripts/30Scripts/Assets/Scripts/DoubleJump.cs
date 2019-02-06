@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class DoubleJump : MonoBehaviour {
-    public float DoubleSpeed = 4;
+    public float DoubleSpeed = 6;
     public Rigidbody RigJump; 
     public bool onGrounded = true;
     private const int HighJump = 2;
