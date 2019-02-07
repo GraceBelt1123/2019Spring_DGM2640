@@ -53,18 +53,20 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\Animation.cs" />
+     <Compile Include="Assets\Scripts\Amount.cs" />
      <Compile Include="Assets\Scripts\Camera.cs" />
+     <Compile Include="Assets\Scripts\CollectCoins.cs" />
      <Compile Include="Assets\Scripts\Collective.cs" />
      <Compile Include="Assets\Scripts\Crouch.cs" />
-     <Compile Include="Assets\Scripts\Dice.cs" />
      <Compile Include="Assets\Scripts\DoubleJump.cs" />
      <Compile Include="Assets\Scripts\Enemy.cs" />
+     <Compile Include="Assets\Scripts\FinalScore.cs" />
      <Compile Include="Assets\Scripts\Health.cs" />
      <Compile Include="Assets\Scripts\Movement.cs" />
      <Compile Include="Assets\Scripts\Score.cs" />
+     <Compile Include="Assets\Scripts\Score1.cs" />
      <Compile Include="Assets\Scripts\Shoot.cs" />
-     <Compile Include="Assets\Scripts\Speed.cs" />
+     <Compile Include="Assets\Scripts\Store.cs" />
  <Reference Include="Unity.ProBuilder.AddOns.Editor">
  <HintPath>C:/Users/10783188/Desktop/Github_GameDesign/Spring2019/2019Spring_DGM2640/CharacterDevelopment/30Scripts/30Scripts/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
  </Reference>
