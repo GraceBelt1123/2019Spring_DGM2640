@@ -5,23 +5,18 @@ using UnityEngine;
 
 public class Crouch : MonoBehaviour
 {
-	CharacterController Player;
 
-	void Start()
-	{
-		Player = gameObject.GetComponent<CharacterController>();
-	}
 
 	void Update()
 	{
-		if(Input.GetKey(KeyCode.Z))
+		if(Input.GetKey(KeyCode.C))
 		{
-			Player.height = 0.5f;
+			gameObject.transform.localScale = new Vector3(1, 0.5f, 1);
 		}
 
 		else
 		{
-			Player.height = 1.8f;
+			gameObject.transform.localScale = new Vector3(1, 1, 1);
 		}
 	}
 	
