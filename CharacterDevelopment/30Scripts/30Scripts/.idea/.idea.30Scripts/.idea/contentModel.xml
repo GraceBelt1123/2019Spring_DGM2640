@@ -14,6 +14,7 @@
           <e p="Collective.cs" t="Include" />
           <e p="Crouch.cs" t="Include" />
           <e p="DoubleJump.cs" t="Include" />
+          <e p="dropEnemy.cs" t="Include" />
           <e p="Enemy.cs" t="Include" />
           <e p="FinalScore.cs" t="Include" />
           <e p="Health.cs" t="Include" />

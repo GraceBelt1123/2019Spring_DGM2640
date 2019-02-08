@@ -59,6 +59,7 @@
      <Compile Include="Assets\Scripts\Collective.cs" />
      <Compile Include="Assets\Scripts\Crouch.cs" />
      <Compile Include="Assets\Scripts\DoubleJump.cs" />
+     <Compile Include="Assets\Scripts\dropEnemy.cs" />
      <Compile Include="Assets\Scripts\Enemy.cs" />
      <Compile Include="Assets\Scripts\FinalScore.cs" />
      <Compile Include="Assets\Scripts\Health.cs" />
