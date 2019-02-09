@@ -10,15 +10,17 @@
         <e p="Scripts" t="Include">
           <e p="Amount.cs" t="Include" />
           <e p="Camera.cs" t="Include" />
+          <e p="Chase.cs" t="Include" />
           <e p="CollectCoins.cs" t="Include" />
           <e p="Collective.cs" t="Include" />
           <e p="Crouch.cs" t="Include" />
           <e p="DoubleJump.cs" t="Include" />
-          <e p="dropEnemy.cs" t="Include" />
+          <e p="dropping.cs" t="Include" />
           <e p="Enemy.cs" t="Include" />
           <e p="FinalScore.cs" t="Include" />
           <e p="Health.cs" t="Include" />
           <e p="Movement.cs" t="Include" />
+          <e p="RedSwitch.cs" t="Include" />
           <e p="Score.cs" t="Include" />
           <e p="Score1.cs" t="Include" />
           <e p="Shoot.cs" t="Include" />

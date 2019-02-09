@@ -55,15 +55,17 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\Amount.cs" />
      <Compile Include="Assets\Scripts\Camera.cs" />
+     <Compile Include="Assets\Scripts\Chase.cs" />
      <Compile Include="Assets\Scripts\CollectCoins.cs" />
      <Compile Include="Assets\Scripts\Collective.cs" />
      <Compile Include="Assets\Scripts\Crouch.cs" />
      <Compile Include="Assets\Scripts\DoubleJump.cs" />
-     <Compile Include="Assets\Scripts\dropEnemy.cs" />
+     <Compile Include="Assets\Scripts\dropping.cs" />
      <Compile Include="Assets\Scripts\Enemy.cs" />
      <Compile Include="Assets\Scripts\FinalScore.cs" />
      <Compile Include="Assets\Scripts\Health.cs" />
      <Compile Include="Assets\Scripts\Movement.cs" />
+     <Compile Include="Assets\Scripts\RedSwitch.cs" />
      <Compile Include="Assets\Scripts\Score.cs" />
      <Compile Include="Assets\Scripts\Score1.cs" />
      <Compile Include="Assets\Scripts\Shoot.cs" />
