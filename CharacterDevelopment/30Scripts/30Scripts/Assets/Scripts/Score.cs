@@ -4,13 +4,37 @@ using UnityEngine;
 
 public class Score : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
+	/*public GameObject Greater;
+	public GameObject Less;
+  
+	public Text sweetText;
+	public FinalScore score;
+  
+	public void Addscore(int newValue)
+	{
+		score.Money += newValue;
+		print(score);
+		UpdateScore();
 	}
+
+	public void UpdateScore()
+	{
+		sweetText.text = "Score: " + score.Money;
+	}
+  
+	public void EndScore()
+	{
+		print(score.Money);
+    
+		if (score.Money > 5)
+		{
+			Greater.SetActive(true);
+		}
+
+		if (score.Money < 5)
+		{
+			Less.SetActive(true);
+		}
+	}*/
 	
-	// Update is called once per frame
-	void Update () {
-		
-	}
 }

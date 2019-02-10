@@ -1,32 +1,23 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.Experimental.UIElements.GraphView;
 using UnityEngine;
 
 public class Crouch : MonoBehaviour
 {
-	/*public Rigidbody Player;
-	private CharacterController iCrouch;
-	
-	void Start()
-	{
-		Player = gameObject.GetComponent<Rigidbody>();
-	}
+
 
 	void Update()
 	{
 		if(Input.GetKey(KeyCode.C))
 		{
-			Player.height = 1.0f;
+			gameObject.transform.localScale = new Vector3(1, 0.5f, 1);
 		}
 
 		else
 		{
-			Player.height = 1.8f;
+			gameObject.transform.localScale = new Vector3(1, 1, 1);
 		}
 	}
-
-	void crouch()
-	{
-		Player
-	}*/
+	
 }
