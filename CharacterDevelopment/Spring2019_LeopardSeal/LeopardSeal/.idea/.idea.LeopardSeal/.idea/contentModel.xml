@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Users\10783188\.Rider2018.2\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\10783188\.Rider2018.2\system\resharper-host\Local\Transient\ReSharperHost\v182\SolutionCaches\_LeopardSeal.-520194365.00" t="ExcludeRecursive" />
-    <e p="C:\Users\10783188\Desktop\Github_GameDesign\Github_G\SnackDumplings\CharacterDevelopment\2019Spring_DGM2640\CharacterDevelopment\Spring2019_LeopardSeal\LeopardSeal" t="IncludeRecursive">
+    <e p="C:\Users\10783188\.Rider2018.2\system\resharper-host\Local\Transient\ReSharperHost\v182\SolutionCaches\_LeopardSeal.-1054465070.00" t="ExcludeRecursive" />
+    <e p="C:\Users\10783188\Desktop\Github_GameDesign\Spring2019\2019Spring_DGM2640\CharacterDevelopment\Spring2019_LeopardSeal\LeopardSeal" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
@@ -23,7 +23,9 @@
       <e p="Library" t="ExcludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="packages" t="ExcludeRecursive" />
-      <e p="Temp\bin" t="ExcludeRecursive" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
     </e>
   </component>
 </project>

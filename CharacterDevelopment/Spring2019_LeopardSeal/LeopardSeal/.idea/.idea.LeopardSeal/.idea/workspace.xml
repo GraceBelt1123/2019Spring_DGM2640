@@ -19,8 +19,8 @@
                   <state relative-caret-position="51">
                     <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
                     <folding>
-                      <marker date="1548821487054" expanded="false" signature="6:78" ph="..." />
-                      <marker date="1548821487054" expanded="true" signature="114:118" ph="{...}" />
+                      <marker date="1548875011180" expanded="false" signature="6:78" ph="..." />
+                      <marker date="1548875011180" expanded="true" signature="114:118" ph="{...}" />
                     </folding>
                   </state>
                 </provider>
@@ -62,19 +62,33 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-415774665">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="cs" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="C#" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Jump.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
+            <state relative-caret-position="136">
               <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-              <folding>
-                <marker date="1548792713316" expanded="false" signature="6:78" ph="..." />
-                <marker date="1548792713316" expanded="true" signature="114:141" ph="{...}" />
-                <marker date="1548792713316" expanded="true" signature="130:139" ph="{...}" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -82,33 +96,33 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/DoubleJump.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+            <state relative-caret-position="119">
+              <caret line="9" column="25" lean-forward="true" selection-start-line="7" selection-end-line="33" selection-end-column="1" />
               <folding>
-                <marker date="1548817516017" expanded="false" signature="6:78" ph="..." />
-                <marker date="1548817516017" expanded="true" signature="119:641" ph="{...}" />
-                <marker date="1548817516017" expanded="true" signature="291:336" ph="{...}" />
-                <marker date="1548817516017" expanded="true" signature="352:548" ph="{...}" />
-                <marker date="1548817516017" expanded="true" signature="430:545" ph="{...}" />
-                <marker date="1548817516017" expanded="true" signature="593:639" ph="{...}" />
+                <marker date="1548875011173" expanded="false" signature="6:78" ph="..." />
+                <marker date="1548875011173" expanded="true" signature="119:641" ph="{...}" />
+                <marker date="1548875011173" expanded="true" signature="291:336" ph="{...}" />
+                <marker date="1548875011173" expanded="true" signature="352:548" ph="{...}" />
+                <marker date="1548875011173" expanded="true" signature="430:545" ph="{...}" />
+                <marker date="1548875011173" expanded="true" signature="593:639" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Movement.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="34" selection-start-line="34" selection-end-line="34" />
+            <state relative-caret-position="17">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
               <folding>
-                <marker date="1548820847101" expanded="false" signature="6:78" ph="..." />
-                <marker date="1548820847101" expanded="true" signature="117:620" ph="{...}" />
-                <marker date="1548820847101" expanded="true" signature="253:305" ph="{...}" />
-                <marker date="1548820847101" expanded="true" signature="323:503" ph="{...}" />
-                <marker date="1548820847101" expanded="true" signature="356:498" ph="{...}" />
-                <marker date="1548820847101" expanded="true" signature="522:618" ph="{...}" />
-                <marker date="1548820847101" expanded="true" signature="555:613" ph="{...}" />
+                <marker date="1548875011178" expanded="false" signature="6:78" ph="..." />
+                <marker date="1548875011178" expanded="true" signature="117:620" ph="{...}" />
+                <marker date="1548875011178" expanded="true" signature="253:305" ph="{...}" />
+                <marker date="1548875011178" expanded="true" signature="323:503" ph="{...}" />
+                <marker date="1548875011178" expanded="true" signature="356:498" ph="{...}" />
+                <marker date="1548875011178" expanded="true" signature="522:618" ph="{...}" />
+                <marker date="1548875011178" expanded="true" signature="555:613" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -117,13 +131,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Camera.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
+            <state relative-caret-position="306">
               <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-              <folding>
-                <marker date="1548822136275" expanded="false" signature="6:131" ph="..." />
-                <marker date="1548822136275" expanded="true" signature="168:446" ph="{...}" />
-                <marker date="1548822136275" expanded="true" signature="266:444" ph="{...}" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -134,11 +143,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Jump.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DoubleJump.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Camera.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Jump.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Speed.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Movement.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DoubleJump.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -225,11 +234,12 @@
       <workItem from="1548792672481" duration="2721000" />
       <workItem from="1548814130941" duration="8118000" />
       <workItem from="1548873022050" duration="667000" />
+      <workItem from="1548898419755" duration="76000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11556000" />
+    <option name="totallyTimeSpent" value="11632000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -243,7 +253,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="238" width="1440" height="779" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26086956" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26449275" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -287,68 +297,58 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Jump.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Camera.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Speed.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
           <folding>
-            <marker date="1548821487054" expanded="false" signature="6:78" ph="..." />
-            <marker date="1548821487054" expanded="true" signature="114:118" ph="{...}" />
+            <marker date="1548875011180" expanded="false" signature="6:78" ph="..." />
+            <marker date="1548875011180" expanded="true" signature="114:118" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/DoubleJump.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+        <state relative-caret-position="119">
+          <caret line="9" column="25" lean-forward="true" selection-start-line="7" selection-end-line="33" selection-end-column="1" />
           <folding>
-            <marker date="1548817516017" expanded="false" signature="6:78" ph="..." />
-            <marker date="1548817516017" expanded="true" signature="119:641" ph="{...}" />
-            <marker date="1548817516017" expanded="true" signature="291:336" ph="{...}" />
-            <marker date="1548817516017" expanded="true" signature="352:548" ph="{...}" />
-            <marker date="1548817516017" expanded="true" signature="430:545" ph="{...}" />
-            <marker date="1548817516017" expanded="true" signature="593:639" ph="{...}" />
+            <marker date="1548875011173" expanded="false" signature="6:78" ph="..." />
+            <marker date="1548875011173" expanded="true" signature="119:641" ph="{...}" />
+            <marker date="1548875011173" expanded="true" signature="291:336" ph="{...}" />
+            <marker date="1548875011173" expanded="true" signature="352:548" ph="{...}" />
+            <marker date="1548875011173" expanded="true" signature="430:545" ph="{...}" />
+            <marker date="1548875011173" expanded="true" signature="593:639" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Movement.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="17">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
           <folding>
-            <marker date="1548820847101" expanded="false" signature="6:78" ph="..." />
-            <marker date="1548820847101" expanded="true" signature="117:620" ph="{...}" />
-            <marker date="1548820847101" expanded="true" signature="253:305" ph="{...}" />
-            <marker date="1548820847101" expanded="true" signature="323:503" ph="{...}" />
-            <marker date="1548820847101" expanded="true" signature="356:498" ph="{...}" />
-            <marker date="1548820847101" expanded="true" signature="522:618" ph="{...}" />
-            <marker date="1548820847101" expanded="true" signature="555:613" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Camera.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-          <folding>
-            <marker date="1548822136275" expanded="false" signature="6:131" ph="..." />
-            <marker date="1548822136275" expanded="true" signature="168:446" ph="{...}" />
-            <marker date="1548822136275" expanded="true" signature="266:444" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Jump.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-          <folding>
-            <marker date="1548792713316" expanded="false" signature="6:78" ph="..." />
-            <marker date="1548792713316" expanded="true" signature="114:141" ph="{...}" />
-            <marker date="1548792713316" expanded="true" signature="130:139" ph="{...}" />
+            <marker date="1548875011178" expanded="false" signature="6:78" ph="..." />
+            <marker date="1548875011178" expanded="true" signature="117:620" ph="{...}" />
+            <marker date="1548875011178" expanded="true" signature="253:305" ph="{...}" />
+            <marker date="1548875011178" expanded="true" signature="323:503" ph="{...}" />
+            <marker date="1548875011178" expanded="true" signature="356:498" ph="{...}" />
+            <marker date="1548875011178" expanded="true" signature="522:618" ph="{...}" />
+            <marker date="1548875011178" expanded="true" signature="555:613" ph="{...}" />
           </folding>
         </state>
       </provider>
