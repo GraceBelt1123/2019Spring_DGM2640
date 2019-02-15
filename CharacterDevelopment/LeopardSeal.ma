@@ -1,6 +1,6 @@
 //Maya ASCII 2017 scene
 //Name: LeopardSeal.ma
-//Last modified: Thu, Feb 14, 2019 09:37:57 PM
+//Last modified: Thu, Feb 14, 2019 09:40:56 PM
 //Codeset: 1252
 requires maya "2017";
 currentUnit -l centimeter -a degree -t film;
@@ -60,14 +60,14 @@ createNode camera -s -n "frontShape" -p "front";
 createNode transform -s -n "side";
 	rename -uid "94A0DF68-4B82-1931-009E-0D9A2007791C";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 1000.1855661224124 0.8718087514487638 7.5260199983671319 ;
+	setAttr ".t" -type "double3" 1000.1855661224124 -0.10473368231888547 8.4317832810254512 ;
 	setAttr ".r" -type "double3" 0 89.999999999999986 0 ;
 createNode camera -s -n "sideShape" -p "side";
 	rename -uid "76FA18EF-402F-58A4-2FB0-BBA64CE40227";
 	setAttr -k off ".v" no;
 	setAttr ".rnd" no;
 	setAttr ".coi" 998.16595820905775;
-	setAttr ".ow" 21.007749936014502;
+	setAttr ".ow" 7.2089478924788999;
 	setAttr ".imn" -type "string" "side";
 	setAttr ".den" -type "string" "side_depth";
 	setAttr ".man" -type "string" "side_mask";
@@ -39258,6 +39258,7 @@ createNode mesh -n "pCubeShape2" -p "pCube2";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
+	setAttr ".pv" -type "double2" 0.5 0.1234661340713501 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
 	setAttr -s 40 ".uvst[0].uvsp[0:39]" -type "float2" 0.375 0 0.625 0 0.375
 		 0.25 0.625 0.25 0.375 0.5 0.625 0.5 0.375 0.75 0.625 0.75 0.375 1 0.625 1 0.875 0
@@ -39271,6 +39272,14 @@ createNode mesh -n "pCubeShape2" -p "pCube2";
 	setAttr ".dcc" -type "string" "Ambient+Diffuse";
 	setAttr ".covm[0]"  0 1 1;
 	setAttr ".cdvm[0]"  0 1 1;
+	setAttr -s 24 ".pt[0:23]" -type "float3"  0 0.19542335 -0.63900268 
+		0 0.19542335 -0.63900268 0 -0.4342739 -0.5940246 0 -0.4342739 -0.5940246 0 0.018707473 
+		0.091831565 0 0.018707473 0.091831565 0 0.62432903 -0.037233237 0 0.62432903 -0.037233237 
+		0 0.41307336 -0.19847652 0 0.41307336 -0.19847652 0 -0.13686685 -0.10422941 0 -0.13686685 
+		-0.10422941 0 0.24505466 -0.37533674 0 0.24505466 -0.37533674 0 -0.33501133 -0.32105255 
+		0 -0.33501133 -0.32105255 0 0.34297043 0.035120476 0 0.34297043 0.035120476 0 0.15313482 
+		-0.17895795 0 0 -0.3691327 0 -0.080650881 -0.61573827 0 -0.080650881 -0.61573827 
+		0 0 -0.3691327 0 0.15313482 -0.17895795;
 	setAttr -s 24 ".vt[0:23]"  -0.5 -0.5 0.5 0.5 -0.5 0.5 -0.5 0.5 0.5 0.5 0.5 0.5
 		 -0.5 0.5 -0.5 0.5 0.5 -0.5 -0.5 -0.5 -0.5 0.5 -0.5 -0.5 0.5 -0.5 -0.17441748 -0.5 -0.5 -0.17441748
 		 -0.5 0.5 -0.1744175 0.5 0.5 -0.1744175 0.5 -0.5 0.16493648 -0.5 -0.5 0.16493648 -0.5 0.5 0.16493648
