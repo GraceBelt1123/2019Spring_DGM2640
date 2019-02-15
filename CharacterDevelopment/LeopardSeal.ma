@@ -1,6 +1,6 @@
 //Maya ASCII 2017 scene
 //Name: LeopardSeal.ma
-//Last modified: Thu, Feb 14, 2019 09:44:00 PM
+//Last modified: Thu, Feb 14, 2019 09:55:26 PM
 //Codeset: 1252
 requires maya "2017";
 currentUnit -l centimeter -a degree -t film;
