@@ -1,6 +1,6 @@
 //Maya ASCII 2017 scene
 //Name: LeopardSeal.ma
-//Last modified: Fri, Feb 15, 2019 10:14:04 PM
+//Last modified: Fri, Feb 15, 2019 10:19:56 PM
 //Codeset: 1252
 requires maya "2017";
 currentUnit -l centimeter -a degree -t film;
@@ -13,13 +13,13 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "67E17532-40B5-DF43-F55A-A58F881EA3D3";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 3.1141017058661715 11.571985280222464 12.300368587086753 ;
-	setAttr ".r" -type "double3" 288.26164695643615 -4327.7999999985668 0 ;
+	setAttr ".t" -type "double3" 2.7394635873403166 8.6125155031455094 13.269206228611079 ;
+	setAttr ".r" -type "double3" 299.06164695641951 -4330.599999998517 -2.4268290006560114e-015 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "DD9BA757-484F-1CFD-53BB-999F3E4F003A";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 12.413991375130028;
+	setAttr ".coi" 10.101042195644077;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
@@ -39344,14 +39344,14 @@ createNode mesh -n "pCubeShape2" -p "pCube2";
 	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
 createNode transform -n "pCube3";
 	rename -uid "8BC83CF6-4A73-779E-19D7-7D99E3554356";
-	setAttr ".t" -type "double3" 3.446351381360671 0.53280910765005829 9.0648860797069446 ;
+	setAttr ".t" -type "double3" 0.7693906739314853 0.53280910765005829 9.0648860797069446 ;
 	setAttr ".s" -type "double3" 1 1 2 ;
 createNode mesh -n "pCubeShape3" -p "pCube3";
 	rename -uid "02D84CBF-44DC-44D0-D3BE-8D8DD8339632";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
-	setAttr ".pv" -type "double2" 0.28767850250005722 0.5 ;
+	setAttr ".pv" -type "double2" 0.5 0.5 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
 	setAttr -s 40 ".uvst[0].uvsp[0:39]" -type "float2" 0.375 0 0.625 0 0.375
 		 0.25 0.625 0.25 0.375 0.5 0.625 0.5 0.375 0.75 0.625 0.75 0.375 1 0.625 1 0.875 0
