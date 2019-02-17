@@ -1,6 +1,6 @@
 //Maya ASCII 2017 scene
 //Name: LeopardSeal.ma
-//Last modified: Sat, Feb 16, 2019 09:01:40 PM
+//Last modified: Sat, Feb 16, 2019 10:32:41 PM
 //Codeset: 1252
 requires maya "2017";
 currentUnit -l centimeter -a degree -t film;
@@ -13,13 +13,13 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "67E17532-40B5-DF43-F55A-A58F881EA3D3";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 48.308619558953588 26.615973233845065 -8.7113093492665392 ;
-	setAttr ".r" -type "double3" 332.66164694332616 -4577.8000000026705 0 ;
+	setAttr ".t" -type "double3" -12.485843350627704 42.28577479740261 3.8785489826234985 ;
+	setAttr ".r" -type "double3" 248.66164694336737 -4579.8000000026796 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "DD9BA757-484F-1CFD-53BB-999F3E4F003A";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 52.420295643170739;
+	setAttr ".coi" 42.668542273771742;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
@@ -39088,7 +39088,7 @@ createNode mesh -n "pSphereShape4" -p "pSphere4";
 	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
 createNode transform -n "pCube1";
 	rename -uid "9BF405C4-4A16-44CE-5E14-4BA6C51DF84A";
-	setAttr ".t" -type "double3" 7.822340065265708 0.81886073572126494 -1.3728579246998387 ;
+	setAttr ".t" -type "double3" 8.7470476946779474 0.81886073572126494 -1.3728579246998387 ;
 	setAttr ".r" -type "double3" 8.0441451449919619 0 0 ;
 	setAttr ".s" -type "double3" 0.28283745247110192 1.5656749049422038 -4.4343250950577957 ;
 createNode mesh -n "pCubeShape1" -p "pCube1";
