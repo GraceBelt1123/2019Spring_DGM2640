@@ -1,6 +1,6 @@
 //Maya ASCII 2017 scene
 //Name: LeopardSeal.ma
-//Last modified: Sat, Feb 16, 2019 08:31:13 PM
+//Last modified: Sat, Feb 16, 2019 08:32:14 PM
 //Codeset: 1252
 requires maya "2017";
 currentUnit -l centimeter -a degree -t film;
@@ -13,13 +13,13 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "67E17532-40B5-DF43-F55A-A58F881EA3D3";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 3.6792402819269361 20.887495853705893 21.656396783732106 ;
-	setAttr ".r" -type "double3" 304.46164694301638 -4319.4000000013129 0 ;
+	setAttr ".t" -type "double3" 3.8011472659796759 7.8533289949972183 17.681298257928042 ;
+	setAttr ".r" -type "double3" 320.66164694297862 -4321.4000000013293 -1.9884402456486576e-016 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "DD9BA757-484F-1CFD-53BB-999F3E4F003A";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 28.269913896248017;
+	setAttr ".coi" 12.409601781152087;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
@@ -39256,6 +39256,7 @@ createNode transform -n "pCube2";
 createNode mesh -n "pCubeShape2" -p "pCube2";
 	rename -uid "94D9F3BF-44F9-5447-F9DE-AB808D6C7B34";
 	setAttr -k off ".v";
+	setAttr -s 2 ".iog";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
 	setAttr ".pv" -type "double2" 0.25 0.125 ;
@@ -39342,6 +39343,11 @@ createNode mesh -n "pCubeShape2" -p "pCube2";
 	setAttr ".cvd" -type "dataPolyComponent" Index_Data Vertex 0 ;
 	setAttr ".pd[0]" -type "dataPolyComponent" Index_Data UV 0 ;
 	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
+createNode transform -n "pCube3";
+	rename -uid "CC737EC3-419A-7607-C302-2EBCE95F7CBA";
+	setAttr ".t" -type "double3" 3.8311677277691878 0 9.6947407515058934 ;
+	setAttr ".s" -type "double3" -1 2 4 ;
+parent -s -nc -r -add "|pCube2|pCubeShape2" "pCube3" ;
 createNode lightLinker -s -n "lightLinker1";
 	rename -uid "37336A16-46DB-5E11-195E-F1BBB5945726";
 	setAttr -s 6 ".lnk";
@@ -39515,7 +39521,7 @@ select -ne :defaultRenderingList1;
 select -ne :defaultTextureList1;
 	setAttr -s 2 ".tx";
 select -ne :initialShadingGroup;
-	setAttr -s 6 ".dsm";
+	setAttr -s 7 ".dsm";
 	setAttr ".ro" yes;
 select -ne :initialParticleSE;
 	setAttr ".ro" yes;
@@ -39603,5 +39609,6 @@ connectAttr "pSphereShape2.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "pSphereShape3.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "pSphereShape4.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "pCubeShape1.iog" ":initialShadingGroup.dsm" -na;
-connectAttr "pCubeShape2.iog" ":initialShadingGroup.dsm" -na;
+connectAttr "|pCube2|pCubeShape2.iog" ":initialShadingGroup.dsm" -na;
+connectAttr "|pCube3|pCubeShape2.iog" ":initialShadingGroup.dsm" -na;
 // End of LeopardSeal.ma
